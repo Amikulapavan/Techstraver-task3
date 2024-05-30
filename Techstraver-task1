@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Landing Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">PAWAN STORES</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+    </header>
+
+   
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Discover Your Style</h1>
+            <p>Find the perfect products that suit your taste.</p>
+            <a href="#products" class="cta">Shop Now</a>
+        </div>
+    </section>
+
+  
+    <section class="featured-products" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1 image comes here i have not uploaded">
+                <h3>Product 1</h3>
+                <p>$29.99</p>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpg" alt="Product 2 image comes here i have not uploaded">
+                <h3>Product 2</h3>
+                <p>$39.99</p>
+            </div>
+            <div class="product-item">
+                <img src="product3.jpg" alt="Product 3 image comes here i have not uploaded">
+                <h3>Product 3</h3>
+                <p>$49.99</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to provide the best products for our customers. We believe in quality, style, and customer satisfaction.</p>
+    </section>
+
+    
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-item">
+            <p>"Amazing products! Great quality and fast delivery."</p>
+            <h4>- Customer A</h4>
+        </div>
+        <div class="testimonial-item">
+            <p>"I love the variety and the excellent customer service."</p>
+            <h4>- Customer B</h4>
+        </div>
+    </section>
+
+   
+    <section class="promotions">
+        <h2>Special Offers</h2>
+        <p>Sign up for our newsletter and get 10% off your first order!</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#returns">Return Policy</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
